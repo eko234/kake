@@ -1,8 +1,8 @@
-#Kake
+# Kake
 
 Make you makefile more useful in kakoune,
 
-##Usage
+## Usage
 `kake-mode`:
 enter `kake-mode`, which will map keys acording to the first Makefile
 found while walking back to the root dir
@@ -15,7 +15,7 @@ block on top of the target in a scratch buffer
 my recommendation is to map `<leader-m>` to enter `kake-mode`, when in this mode
 you will get the info of each target
 
-##Configuration
+## Configuration
 by changing the option `kake_how`, you can define if it does `automatic` mapping
 based on the makefile targets, or if you want to look for a `.kake` file right
 besides the first found makefile where you would manually map the targets
